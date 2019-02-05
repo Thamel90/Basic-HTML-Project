@@ -1,0 +1,20 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 125%;
+}
+
+form {
+	width: 400px;
+}
+input[type="text"] {
+	width: 100%;
+	height: 25px;
+	margin: 1.25% 0;
+	border: 2px solid black;
+	border-radius: 4%;
+}
+
+input[type="submit"] {
+	width: 25%;
+	height: 25px;
+}

@@ -3,11 +3,12 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>My Photo depository</title>
+		<link rel="stylesheet" href="./Photo_House.css">
 	</head>
 	
 	<body>
 		<h1><strong>Welcome to Trey's photo house!</strong></h1>
-		<ul>I love photos, my website has includes photos of all kinds:</ul>
+		<ul class="List">I love photos, my website includes photos of all kinds:</ul>
 			<li>Nature</li>
 			<li>Puppies & Kittens</li>
 			<li>The sky</li>
@@ -61,16 +62,17 @@
 					<p>To get started, please provide us some basic contact info, and lets us know which photo was your favorite!</p>
 					<div>
 						<form action="" method="post">
-							<input type="text" value="First Name">
-							<input type="text" value="Last Name">
-							<input type="text" value="Phone Number">
-							<input list="Phototypes" value="Favorite Photo">
+							<input type="text" value="" placeholder="First Name">
+							<input type="text" value="" placeholder="Last Name">
+							<input type="text" value="" placeholder="Phone Number">
+							<input type="text" list="Phototypes" value="" placeholder="Favorite Photo">
 								<datalist id="Phototypes">
 									<option value="Space Photo">
 									<option value="Sports Photo">
 									<option value="Wildlife Photo">
 									<option value="Plant Photo">
 									<option value="Puppy Photo">
+								</datalist>
 							<input type="submit" Value="Submit">
 						</form>
 					</div>
